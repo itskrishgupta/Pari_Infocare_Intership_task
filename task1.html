@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Pari Infocare Pvt. Ltd.</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <div class="container-fluid shadow">
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <a style="font-size: 2rem" class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><strong>Companies</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><strong>Holdings</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><strong>Order Book</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img src="images/user.png" width="30" height="30" alt="Profile">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Side Content -->
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <div class="col-3 bd-sidebar">
+        <form role="search" class="bd-search d-flex align-items-center">
+
+          <input type="search" class="form-control border-0" placeholder="&#128269;Search Eg. Zerodha, Groww, Upstox"
+            aria-label="Search for..." autocomplete="off" data-docs-version="4.4">
+        </form>
+        <div class="bd-toc-item active">
+          <ul class="nav bd-sidenav side-content-list">
+            <li>
+              <div class="row">
+                <div class="ml-3">
+                  UPSTOX
+                </div>
+                <div style="margin-left: 105px" class="d-flex flex-wrap">
+                  <div class="green ml-4">
+                    Buy
+                  </div>
+                  <div class="red ml-4">
+                    Sell
+                  </div>
+                  <div class="ml-4">
+                    <img src="https://img.icons8.com/material-rounded/24/000000/bookmark-ribbon--v1.png" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="ml-3">
+                  ZERODHA
+                </div>
+                <div style="margin-left: 90px" class="d-flex flex-wrap">
+                  <div class="green ml-4">
+                    Buy
+                  </div>
+                  <div class="red ml-4">
+                    Sell
+                  </div>
+                  <div class="ml-4">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="ml-3">
+                  GROWW
+                </div>
+                <div style="margin-left: 100px" class="d-flex flex-wrap">
+                  <div class="green ml-4">
+                    Buy
+                  </div>
+                  <div class="red ml-4">
+                    Sell
+                  </div>
+                  <div class="ml-4">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png" />
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div style="font-size: 0.8rem; color: gray;" class="footer">
+          <button type="submit" name="button" style="border-right: 1px solid rgba(0,0,0,0.1);">All Companies</button>
+          <button type="submit" name="button">Watchlist</button>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+
+      <div class="col-9 main-content">
+        <div class="row main-heading">
+          <div class="col-8 ">
+            <h4 class="text-muted">Holdings (6)</h4>
+          </div>
+          <div class="col-4">
+            <div class="row">
+              <div class="col-6">
+                <img alt="svgImg"
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iIzM1N2JhOSI+PHBhdGggZD0iTTgyLjQxNjY3LDBjLTkuODk3MTcsMCAtMTcuOTE2NjcsOC4wMTk1IC0xNy45MTY2NywxNy45MTY2N3YxMC43NWgtMjguNjY2NjdjLTcuOTE5MTcsMCAtMTQuMzMzMzMsNi40MTQxNyAtMTQuMzMzMzMsMTQuMzMzMzN2MjEuNWMwLDMuOTU2IDMuMjEwNjcsNy4xNjY2NyA3LjE2NjY3LDcuMTY2NjdoMi41NjE1MmM5LjM3NCwwIDE3LjkwMTY2LDYuNzQ1MTggMTguODQwNDksMTYuMDY5MDFjMS4wNzUsMTAuNzI4NDkgLTcuMzEyMzUsMTkuNzY0MzIgLTE3LjgxODY4LDE5Ljc2NDMyaC0zLjU4MzMzYy0zLjk1NiwwIC03LjE2NjY3LDMuMjEwNjcgLTcuMTY2NjcsNy4xNjY2N3YyMS41YzAsNy45MTkxNyA2LjQxNDE3LDE0LjMzMzMzIDE0LjMzMzMzLDE0LjMzMzMzaDIxLjVjMy45NTYsMCA3LjE2NjY3LC0zLjIxMDY3IDcuMTY2NjcsLTcuMTY2Njd2LTIuNTYxNTJjMCwtOS4zNzQgNi43NDUxOCwtMTcuOTAxNjYgMTYuMDY5MDEsLTE4Ljg0MDQ5YzEwLjcyODQ5LC0xLjA3NSAxOS43NjQzMiw3LjMxMjM1IDE5Ljc2NDMyLDE3LjgxODY4djMuNTgzMzNjMCwzLjk1NiAzLjIxMDY3LDcuMTY2NjcgNy4xNjY2Nyw3LjE2NjY3aDIxLjVjNy45MTkxNywwIDE0LjMzMzMzLC02LjQxNDE3IDE0LjMzMzMzLC0xNC4zMzMzM3YtMjguNjY2NjdoMTAuNzVjOS44OTcxNywwIDE3LjkxNjY3LC04LjAxOTUgMTcuOTE2NjcsLTE3LjkxNjY3YzAsLTkuODk3MTcgLTguMDE5NSwtMTcuOTE2NjcgLTE3LjkxNjY3LC0xNy45MTY2N2gtMTAuNzV2LTI4LjY2NjY3YzAsLTcuOTE5MTcgLTYuNDE0MTcsLTE0LjMzMzMzIC0xNC4zMzMzMywtMTQuMzMzMzNoLTI4LjY2NjY3di0xMC43NWMwLC05Ljg5NzE3IC04LjAxOTUsLTE3LjkxNjY3IC0xNy45MTY2NywtMTcuOTE2Njd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" />
+
+                <a href="#" class="click-link" id="click-link">Add Holdings</a>
+              </div>
+              <div class="col-6">
+                <img alt="svgImg"
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iIzM1N2JhOSI+PHBhdGggZD0iTTEzOC43MTA4Myw3MS45MjQ2N2MtNC44ODA1LC0yNC42NjA1IC0yNi42MTcsLTQzLjI1OCAtNTIuNzEwODMsLTQzLjI1OGMtMjAuNzI2LDAgLTM4LjY3ODUsMTEuNzQ2MTcgLTQ3LjY0NCwyOC45MjQ2N2MtMjEuNTY0NSwyLjMyMiAtMzguMzU2LDIwLjU2ODMzIC0zOC4zNTYsNDIuNzQyYzAsMjMuNzUwMzMgMTkuMjQ5NjcsNDMgNDMsNDNoOTMuMTY2NjdjMTkuNzg3MTcsMCAzNS44MzMzMywtMTYuMDQ2MTcgMzUuODMzMzMsLTM1LjgzMzMzYzAsLTE4LjkyIC0xNC43MDYsLTM0LjI0OTUgLTMzLjI4OTE3LC0zNS41NzUzM3pNODYsMTI5bC0zMS4wNTMxNywtMzEuMDUzMTdjLTEuNzYzLC0xLjc2MyAtMC41MTYsLTQuNzgwMTcgMS45NzgsLTQuNzgwMTdoMTQuNzQxODN2LTI1LjA4MzMzYzAsLTEuOTc4IDEuNjA1MzMsLTMuNTgzMzMgMy41ODMzMywtMy41ODMzM2gyMS41YzEuOTc4LDAgMy41ODMzMywxLjYwNTMzIDMuNTgzMzMsMy41ODMzM3YyNS4wODMzM2gxNC43NDE4M2MyLjQ5NCwwIDMuNzQxLDMuMDE3MTcgMS45NzgsNC43ODAxN3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" />
+                <a href="portfolio.csv" class="click-link" id="click-link" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Table -->
+        <div class="row">
+          <div class="col-4 table bd-toc-item active">
+            <ul class="nav bd-sidenav item-heading">
+              <li class="first-heading">Instrument</li>
+              <li>TATA POWER</li>
+              <li>ADANI POWER</li>
+              <li style="font-weight: 500;">
+                <div class="row">
+                  <div class="col-9">
+                    RPOWER *
+                  </div>
+                  <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"
+                      style=" fill:#000000;">
+                      <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1"></path>
+                        <g fill="#000000" stroke="none" stroke-width="1">
+                          <path
+                            d="M86,14.33333c-37.09467,0 -67.6979,28.337 -71.30273,64.5h14.45931c3.5475,-28.23667 27.66076,-50.16667 56.84342,-50.16667c29.18267,0 53.29593,21.93 56.84343,50.16667h14.45931c-3.612,-36.163 -34.20807,-64.5 -71.30274,-64.5zM14.69727,93.16667c1.43333,14.39067 7.19388,27.50107 15.88704,38.11491l10.17611,-10.1761c-6.149,-7.92633 -10.29234,-17.49697 -11.60384,-27.93881zM130.94564,121.32943c-2.967,3.76249 -6.34977,7.18928 -10.14811,10.10612l7.25065,12.42969c5.82649,-4.2355 10.97765,-9.34836 15.29915,-15.10319zM50.90853,131.22559l-10.1901,10.1901c9.35967,7.66117 20.67068,13.02284 33.06185,15.18717l1.02181,-14.41731c-8.86517,-1.77733 -17.00639,-5.59213 -23.89355,-10.95996zM108.43782,138.68619c-5.99133,2.5585 -12.51456,4.1345 -19.3444,4.50717l-1.02182,14.37532c9.83267,-0.2795 19.1462,-2.61796 27.60287,-6.4808z">
+                          </path>
+                        </g>
+                        <g fill="#333333" stroke="none" stroke-width="1">
+                          <path
+                            d="M89.45,72.895v41.21h-7.05v-41.21zM81.83,61.965v0c0,-1.14 0.35,-2.10333 1.05,-2.89c0.69333,-0.78667 1.72667,-1.18 3.1,-1.18c1.37333,0 2.41333,0.39333 3.12,1.18c0.71333,0.78667 1.07,1.75 1.07,2.89c0,1.14 -0.35667,2.09333 -1.07,2.86c-0.70667,0.76 -1.74667,1.14 -3.12,1.14c-1.37333,0 -2.40667,-0.38 -3.1,-1.14c-0.7,-0.76667 -1.05,-1.72 -1.05,-2.86z">
+                          </path>
+                        </g>
+                        <path d="M71.83,124.105v-76.21h28.34v76.21z" fill="#ff0000" stroke="#50e3c2" stroke-width="3"
+                          opacity="0"></path>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4 table bd-toc-item active">
+            <ul class="nav bd-sidenav item-heading">
+              <li>
+                <div class="row first-heading">
+                  <div class="col-4">
+                    Qty.
+                  </div>
+                  <div class="col-4">
+                    Avg. Cost &#9660;
+                  </div>
+                  <div class="col-4">
+                    LTP
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-4">
+                    400
+                  </div>
+                  <div class="col-4">
+                    114.00
+                  </div>
+                  <div class="col-4">
+                    118.15
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-4">
+                    400
+                  </div>
+                  <div class="col-4">
+                    114.00
+                  </div>
+                  <div class="col-4">
+                    118.15
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-4">
+                    4000
+                  </div>
+                  <div class="col-4">
+                    114.00
+                  </div>
+                  <div class="col-4">
+                    -
+                  </div>
+                </div>
+              </li>
+          </div>
+          <div class="col-4 table bd-toc-item active">
+            <ul class="nav bd-sidenav item-heading">
+              <li>
+                <div class="row first-heading">
+                  <div class="col-4">
+                    Cur. Value
+                  </div>
+                  <div class="col-4">
+                    P&L
+                  </div>
+                  <div class="col-4">
+                    Net Change
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-4">
+                    47,260.00
+                  </div>
+                  <div class="col-4 green">
+                    1,660.00
+                  </div>
+                  <div class="col-4 green">
+                    +3.46%
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-4">
+                    47,260.00
+                  </div>
+                  <div class="col-4 red">
+                    1,660.00
+                  </div>
+                  <div class="col-4 red">
+                    -3.46%
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-4">
+                    -
+                  </div>
+                  <div class="col-4">
+                    -
+                  </div>
+                  <div class="col-4">
+                    -
+                  </div>
+                </div>
+              </li>
+          </div>
+        </div>
+        <br><br><br>
+        <!-- Footer Data -->
+        <div class="row">
+          <div class="col-6 row border-footer">
+            <div class="col-4 bd-toc-item active">
+              <ul class="nav bd-sidenav footer-content">
+                <li style="padding-bottom:20px;color: #7b767b;">P&L</li>
+                <li style="font-size:25px; color:#2ca019;">&#x20b9; 50000</li>
+                <li style="color:#2ca019">+24.2%</li>
+              </ul>
+            </div>
+            <div class="col-8 bd-toc-item active">
+              <ul class="nav bd-sidenav ">
+                <li style="padding-top:20px;">
+                  <div class="row">
+                    <div style="color: #7b767b;" class="col-6">
+                      Total investment
+                    </div>
+                    <div class="col-6">
+                      &#x20b9; 100000
+                    </div>
+                  </div>
+                </li>
+                <li style="padding-bottom:20px;">
+                  <div class="row">
+                    <div style="color: #7b767b;" class="col-6">
+                      Current Value
+                    </div>
+                    <div class="col-6">
+                      &#x20b9; 150000
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-5 " style="margin:20px;">
+            <div class="row">
+              <div class="col-4">
+                <img src="images/piechart.jpeg" alt="Pie Chart">
+              </div>
+              <div class="col-8">
+                <ul style="list-style:none; padding-top:10px;">
+                  <li>
+                    <div class="row">
+                      <div class="col-2" style="color:brown">&#9632;</div>
+                      <div style="color: #7b767b;" class="col-10">
+                        TATA POWER
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="col-2" style="color:yellow">&#9632;</div>
+                      <div style="color: #7b767b;" class="col-10">
+                        INDIAN POWER CORPORATION
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="col-2" style="color:red">&#9632;</div>
+                      <div style="color: #7b767b;" class="col-10">
+                        IFCI
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="col-2" style="color:#00008b">&#9632;</div>
+                      <div style="color: #7b767b;" class="col-10">
+                        RELIANCE POWER
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

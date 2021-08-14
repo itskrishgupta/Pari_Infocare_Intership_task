@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  color: black;
+  background-color: #fff;
+}
+
+.shadow{
+  box-shadow: 0 0 8px 0 black;
+  width: 100%;
+}
+.container-fluid{
+  padding: 0%;
+  
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.bd-sidebar {
+    order: 0;
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+
+.bd-search {
+    padding: 1rem 15px;
+    margin-right: -15px;
+    margin-left: -15px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+
+.bd-toc-item.active>.bd-sidenav {
+    display: block;
+}
+
+.nav {
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+ul.side-content-list {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+ul.side-content-list > li:after{
+  content:"";
+  display: block;
+  margin: 1.5em 0;
+  margin-right: -15px;
+  margin-left: -15px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  background: rgba(0,0,0,.05);
+  color: rgba(0,0,0,1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  padding: 0px 10px ;
+}
+
+.green{
+  color: #2cdc0f;
+}
+
+.red{
+  color:red;
+}
+
+.main-content{
+  padding-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main-heading{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+ul.item-heading > li:not(:last-child):after{
+  content:"";
+  display: block;
+  margin: 1rem 0;
+  margin-right: -15px;
+  margin-left: -15px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+
+}
+
+.table{
+  display: block;
+  margin:  0;
+  padding : 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  line-height: 20px;
+}
+
+.first-heading{
+  /* padding-top: 10px; */
+  color: #a5a5af;
+}
+
+.footer-content{
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.border-footer{
+  margin:0;
+  padding: 40px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 25px;
+}
+
+.click-link{
+  color:#357BA9;
+  display: inline-block;
+}
